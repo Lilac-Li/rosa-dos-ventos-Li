@@ -1,0 +1,45 @@
+body {
+  background: #f7f4fa;
+  font-family: 'Georgia', serif;
+  color: #4c3b4d;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #8d5ca6;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.compass-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.compass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sun-pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 45%;
+  background-color: #f4a261;
+  transform-origin: bottom center;
+  transform: rotate(0deg) translate(-50%, -100%);
+  border-radius: 2px;
+}
